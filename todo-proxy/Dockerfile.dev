@@ -1,0 +1,2 @@
+FROM nginxL:1.15.9
+COPY ./nginx.conf /etc/conf.d/default.conf
